@@ -17,10 +17,24 @@ function takeANumber(line, name){
 }
 
 function nowServing(katzDeliLine){
-  var length = katzDeliLine.length
-  if(length === 0){
+  //var length = katzDeliLine.length
+  if(length === katzDeliLine.length){
     return "There is nobody waiting to be served!";
   }else{
     return katzDeliLine.shift()
+  }
+}
+
+function currentLine(line){
+  var length = line.length
+  if(length === 0){
+    return "The line is currently empty."
+  }else{
+    var string = "The line is currently: "
+    for(var i = 0; i < length; i++){
+      string += `${i}. `;
+      string += line[i];
+    }
+    return string
   }
 }
