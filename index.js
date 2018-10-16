@@ -1,5 +1,6 @@
 function takeANumber(line, name){
   var length = line.length + 1;
+  array.push(name)
   /*
   var lengthAsString = length.toString();
   var finalDigit = lengthAsString.charAt(length - 1)
