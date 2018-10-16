@@ -1,5 +1,6 @@
 function takeANumber(line, name){
   var length = line.length + 1;
+  /*
   var lengthAsString = length.toString();
   var finalDigit = lengthAsString.charAt(length - 1)
   var secondToLastDigit = lengthAsString.charAt(length - 2)
@@ -14,6 +15,8 @@ function takeANumber(line, name){
     suffix = "th"
   }
   return "Welcome " + name + ". You are " + length + suffix + " in line.";
+  */
+  return "Welcome " + name + ". You are number " + length + suffix + " in line.";
 }
 
 function nowServing(katzDeliLine){
