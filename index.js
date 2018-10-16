@@ -1,6 +1,6 @@
 function takeANumber(line, name){
   var length = line.length
-  var lengthAsString = 
+  var lengthAsString = length.toString()
   var suffix;
   if(length == 1){
     suffix = "st"
