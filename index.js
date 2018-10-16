@@ -1,7 +1,8 @@
 function takeANumber(line, name){
   var length = line.length;
   var lengthAsString = length.toString();
-  var finalDigit = 
+  var finalDigit = lengthAsString.charAt(length - 1)
+  var secondToLastDigit = lengthAsString.charAt(length - 2)
   var suffix;
   if(length == 1 ){
     suffix = "st"
