@@ -16,4 +16,6 @@ function takeANumber(line, name){
   return "Welcome " + name + ". You are " + length + suffix + " in line.";
 }
 
-function nowServing()
+function nowServing(){
+  
+}
