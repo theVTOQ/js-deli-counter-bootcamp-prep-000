@@ -29,7 +29,7 @@ function nowServing(katzDeliLine){
 }
 
 function currentLine(line){
-  var length = line.length
+  var length = line.length + 1;
   if(length === 0){
     return "The line is currently empty."
   }else{
