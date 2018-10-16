@@ -13,7 +13,7 @@ function takeANumber(line, name){
   }else{
     suffix = "th"
   }
-  return "Welcome " + name + ". You are " + length + suffix + " in line.";
+  return "Welcome " + name + ". You are " + (length + 1) + suffix + " in line.";
 }
 
 function nowServing(katzDeliLine){
