@@ -16,7 +16,7 @@ function takeANumber(line, name){
   }
   return "Welcome " + name + ". You are " + length + suffix + " in line.";
   */
-  return "Welcome " + name + ". You are number " + length + suffix + " in line.";
+  return "Welcome " + name + ". You are number " + length + " in line.";
 }
 
 function nowServing(katzDeliLine){
