@@ -35,8 +35,7 @@ function currentLine(line){
   }else{
     var string = "The line is currently: "
     for(var i = 0; i < length; i++){
-      string += (i + 1);
-      string += line[i];
+      string += (i + 1) + ". " + line[i] + ", ";
     }
     return string
   }
