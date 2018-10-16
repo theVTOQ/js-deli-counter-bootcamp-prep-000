@@ -4,11 +4,11 @@ function takeANumber(line, name){
   var finalDigit = lengthAsString.charAt(length - 1)
   var secondToLastDigit = lengthAsString.charAt(length - 2)
   var suffix;
-  if(length == 1 ){
+  if(finalDigit == "1" && secondToLastDigit != "1"){
     suffix = "st"
-  }else if(length == 2){
+  }else if(finalDigit == "2" && secondToLastDigit != "1"){
     suffix = "nd"
-  }else if(length == 3){
+  }else if(finalDigit == "3" && secondToLastDigit != "1"){
     suffix = "rd"
   }else{
     suffix = "th"
