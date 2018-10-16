@@ -16,6 +16,12 @@ function takeANumber(line, name){
   return "Welcome " + name + ". You are " + length + suffix + " in line.";
 }
 
-function nowServing(){
-  
+function nowServing(katzDeliLine){
+  var length = katzDeliLine.length
+  if(length === 0){
+    return "There is nobody waiting to be served!";
+  }else{
+    var firstInLine = katzDeliLine[0]
+    katzDeliLine.
+  }
 }
